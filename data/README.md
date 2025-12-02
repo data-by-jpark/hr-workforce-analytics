@@ -22,11 +22,13 @@ https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset
 
 ## 📂 Files in This Folder
 
+```
 data/
 │
 ├── raw_employee_data.csv # Original Kaggle dataset (raw, unmodified)
 ├── cleaned_employee_data.csv # Cleaned dataset generated in Notebook 1
 └── README.md # This file
+```
 
 ---
 
