@@ -1,8 +1,8 @@
 # HR Workforce Analytics Project
 
-This repository contains a two-part HR Workforce Analytics project focused on transforming a raw HR employee dataset into a clean, reliable foundation for workforce insights and exploratory data analysis (EDA).
+This repository contains a two-part HR Workforce Analytics project that transforms a raw HR employee dataset into a clean, reliable foundation for workforce insights, exploratory data analysis (EDA), and ultimately a **Tableau HR Workforce Dashboard**.
 
-The dataset was sourced from Kaggle and cleaned extensively to resemble a real-world HRIS export.
+The dataset was sourced from Kaggle and cleaned extensively to resemble a real-world HRIS (Human Resources Information System) export.
 
 ---
 
@@ -24,7 +24,7 @@ This notebook prepares the raw HR dataset for analysis by:
   - `TenureDays`  
   - `Age`  
   - `SameDayTermination`  
-- Exporting a fully cleaned, analysis-ready dataset  
+- Exporting a fully cleaned, analysis-ready dataset (cleaned_employee_data.csv)
 
 ---
 
@@ -32,7 +32,7 @@ This notebook prepares the raw HR dataset for analysis by:
 **Location:** `notebooks/02_workforce_eda.ipynb`  
 **Status:** 🛠 In Progress
 
-This notebook explores the cleaned dataset to uncover workforce insights, including:
+This notebook explores the cleaned dataset to uncover key HR insights, including:
 
 - Workforce composition & demographics  
 - Headcount, hiring, and turnover trends  
@@ -40,33 +40,49 @@ This notebook explores the cleaned dataset to uncover workforce insights, includ
 - Segment analysis by business unit, department type, job title, etc.  
 - Data visualization using Python plotting libraries  
 
-> Notebook 2 is actively being developed, using the cleaned dataset generated in Notebook 1.
+> Notebook 2 is actively being developed, using the cleaned dataset generated in Notebook 1. It will serve as the foundation for building the Tableau HR Workforce Dashboard.
+
+---
+
+## 📈 Next Steps — Tableau HR Workforce Dashboard
+
+After completing data cleaning and EDA, the final phase of this project is developing a **Tableau HR Workforce Dashboard** featuring:
+
+- Headcount trends  
+- Attrition & retention metrics  
+- Tenure distribution  
+- Workforce demographics  
+- Department and job segmentation  
+- Key HR analytics KPIs used in real organizations  
+
+The goal is to deliver an interactive, executive-friendly dashboard that enables strategic workforce decision-making.
 
 ---
 
 ## 📂 Repository Structure
 
+```
 project/
-│
-├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ └── 02_workforce_eda.ipynb # in progress
-│
 ├── data/
-│ ├── cleaned_employee_data.csv
-│ └── README.md # dataset source & licensing info
-│
-├── README.md # you are here
-│
+│   ├── cleaned_employee_data.csv
+│   ├── raw_employee_data.csv
+│   └── README.md                     # dataset source & licensing info
+├── notebooks/
+│   ├── 01_data_cleaning_preprocessing.ipynb
+│   └── 02_workforce_eda.ipynb        # in progress          
+├── README.md                         # you are here
 └── requirements.txt
+```
 
 ---
 
 ## 📎 Dataset Source & Licensing
 
-The dataset was obtained from Kaggle.  
-For licensing and usage restrictions, see: `data/README.md`.  
-*Raw data should only be uploaded if the license permits redistribution.*
+- Dataset obtained from Kaggle  
+  (_Employee Dataset — CC0: Public Domain_)
+- Licensing, details, and source information can be found in:  
+  `data/README.md`
+- Raw data should only be uploaded if redistribution complies with the dataset license.
 
 ---
 
@@ -74,10 +90,12 @@ For licensing and usage restrictions, see: `data/README.md`.
 
 This project showcases:
 
-- End-to-end data cleaning for HRIS-style datasets  
-- Workforce analytics preparation and reasoning  
-- A clean, portfolio-ready notebook workflow  
-- Practical preprocessing steps used in real HR analytics teams  
+- End-to-end data cleaning using Python
+- HRIS-style data validation and preprocessing
+- Workforce analytics logic and feature engineering
+- Exploratory data analysis with real HR metrics
+- A clean, portfolio-friendly project workflow
+- Preparation for a Tableau HR Workforce Dashboard
 
 If you're a recruiter or reviewer, feel free to explore the notebooks in order.
 
