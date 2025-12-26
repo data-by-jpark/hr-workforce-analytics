@@ -1,63 +1,56 @@
 # HR Workforce Analytics Project
 
-This repository contains a two-part HR Workforce Analytics project that transforms a raw HR employee dataset into a clean, reliable foundation for workforce insights, exploratory data analysis (EDA), and ultimately a **Tableau HR Workforce Dashboard**.
+This repository contains a comprehensive, **three-part HR Workforce Analytics project**. It demonstrates the end-to-end transformation of raw HRIS data into a clear, executive-level staffing strategy.
 
-Although I previously led an **HR data analysis project using real employee data** in my former workplace, that data is confidential and cannot be shared publicly.  
+## Project Purpose & Professional Context
+This project is a professional-grade replication of the workforce analytics workflows I designed and led during my tenure at the **Ontario Public Service (OPS)**.
 
-To demonstrate the same analytical workflow—and to showcase my expanded skillset in Python, data cleaning, and HR analytics—I rebuilt the entire project using a **public Kaggle HR dataset** that resembles real-world HRIS (Human Resources Information System) data. This version reflects not only the approach I applied professionally, but also the enhanced techniques and best practices I have developed since then.
+Because the original government data is confidential, I have rebuilt this workflow using a public dataset. This project serves two purposes:
+1. **Replication**: Demonstrating the rigorous reporting standards required in a high-level government environment.
+2. **Skill Growth**: Showcasing my improved technical skills in Python, data engineering, and strategic forecasting developed since my time at OPS.
 
 ---
 
-## 📘 Project Notebooks
+## 🚀 The 3-Part Project Journey
+This project is structured into three distinct phases to replicate a real-world business intelligence cycle.
 
-### 📒 Notebook 1 — Data Cleaning & Preprocessing  
+### Phase 1: Data Engineering & Preprocessing
 **Location:** `notebooks/01_data_cleaning_preprocessing.ipynb`  
 **Status:** ✅ Completed
 
-This notebook prepares the raw HR dataset for analysis by:
+**Goal**: Transform raw HR records into a validated, analysis-ready foundation.
 
-- Inspecting raw data quality (missing values, data types, duplicates)  
-- Cleaning and standardizing date fields, categorical fields, and identifiers  
-- Fixing inconsistencies across `EmployeeStatus`, `ExitDate`, and `TerminationType`  
-- Handling missing, incorrect, or outlier values (e.g., unrealistic DOBs)  
-- Creating core derived fields:  
-  - `IsActive`  
-  - `AttritionFlag`  
-  - `TenureDays`  
-  - `Age`  
-  - `SameDayTermination`  
-- Exporting a fully cleaned, analysis-ready dataset (cleaned_employee_data.csv)
+- **Rigorous Cleaning**: Resolved inconsistencies across `EmployeeStatus`, `ExitDate`, and `TerminationType`, and removed outliers.
+- **Feature Engineering**: Created essential HR metrics like `IsActive`, `AttritionFlag`, `TenureDays`, and `Age`.
+- **Standardization**: Ensured the dataset met the quality standards required for senior leadership reporting.
 
----
-
-### 📊 Notebook 2 — HR Workforce EDA  
+### Phase 2: Exploratory Data Analysis (EDA) & Strategy 
 **Location:** `notebooks/02_workforce_eda.ipynb`  
+**Status:** ✅ Completed
+
+**Goal**: Diagnose organizational "pain points" and engineer tactical solutions.
+
+- **Workforce Risk Analysis**: Identified a "double-sided" risk where **32.4% of staff are nearing retirement (55+)**, while new hires (under 1 year) show high turnover, threatening a significant loss of institutional knowledge.
+- **Growth & Attrition Trends**: Diagnosed the "Inflow vs. Outflow" of staff to explain the recent headcount declines observed in 2024 and 2025.
+- **Tactical Staffing Solutions**: Engineered a **Conversion Pipeline** to identify **254 eligible contractors** for permanent roles, providing a data-driven way to stabilize the workforce and reduce hiring costs.
+
+### Phase 3: Tableau HR Workforce Dashboard
+**Location:** [Link to Tableau Public]
+
 **Status:** 🛠 In Progress
 
-This notebook explores the cleaned dataset to uncover key HR insights, including:
+**Goal**: Translate complex Python findings into a visual, interactive experience for stakeholders.
 
-- Workforce composition & demographics  
-- Headcount, hiring, and turnover trends  
-- Tenure distribution & employment lifecycle patterns  
-- Segment analysis by business unit, department type, job title, etc.  
-- Data visualization using Python plotting libraries  
-
-> Notebook 2 is actively being developed, using the cleaned dataset generated in Notebook 1. It will serve as the foundation for building the Tableau HR Workforce Dashboard.
+- **Executive Summary**: High-level KPIs for Headcount and Attrition.
+- **Strategic Deep-Dives**: Filterable views for department-specific turnover and retirement forecasting.
+- **Actionable Visuals**: A "Conversion Pipeline" tracker for operational management.
 
 ---
 
-## 📈 Next Steps — Tableau HR Workforce Dashboard
-
-After completing data cleaning and EDA, the final phase of this project is developing a **Tableau HR Workforce Dashboard** featuring:
-
-- Headcount trends  
-- Attrition & retention metrics  
-- Tenure distribution  
-- Workforce demographics  
-- Department and job segmentation  
-- Key HR analytics KPIs used in real organizations  
-
-The goal is to deliver an interactive, executive-friendly dashboard that enables strategic workforce decision-making.
+## 💡 Key Strategic Insights
+- **The Growth Gap**: Analysis revealed that departures began outpacing hiring in early 2024, leading to the current shrinking workforce.
+- **Stabilization Opportunity**: Instead of costly external recruiting, the data proves that 254 proven contractors are ready for immediate conversion.
+- **Knowledge Bridge**: Recommendations include a mentorship program to pass veteran knowledge to new hires before the 32% retirement wave hits.
 
 ---
 
@@ -71,7 +64,7 @@ project/
 │   └── README.md                     # dataset source & licensing info
 ├── notebooks/
 │   ├── 01_data_cleaning_preprocessing.ipynb
-│   └── 02_workforce_eda.ipynb        # in progress          
+│   └── 02_workforce_eda.ipynb        
 ├── README.md                         # you are here
 └── requirements.txt
 ```
@@ -88,18 +81,15 @@ project/
 
 ---
 
-## 🚀 About This Project
+## 🛠️ Technical Toolkit
 
-This project showcases:
-
-- End-to-end data cleaning using Python
-- HRIS-style data validation and preprocessing
-- Workforce analytics logic and feature engineering
-- Exploratory data analysis with real HR metrics
-- A clean, portfolio-friendly project workflow
-- Preparation for a Tableau HR Workforce Dashboard
-- A reproducible public-data version of the HR analytics project I previously led using confidential real employee data  
-
-If you're a recruiter or reviewer, feel free to explore the notebooks in order.
+-  **Languages:** Python (Pandas, NumPy)
+-  **Visualization:** Matplotlib, Seaborn, Tableau
+-  **Analysis:** Workforce Risk Mapping (Retirement), Tenure-based Attrition Diagnostics, Contract-to-Permanent Pipeline Forecasting
+-  **Tools:** Jupyter Notebook, Kaggle, GitHub
 
 ---
+
+## 📬 Contact & Feedback
+
+If you are a recruiter or a data professional, I’d love to hear your thoughts on this workflow. Feel free to reach out via [LinkedIn](www.linkedin.com/in/jay-park-8a88b3193) or open an issue in this repository.
