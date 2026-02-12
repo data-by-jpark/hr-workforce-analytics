@@ -35,7 +35,7 @@ This project is structured into three distinct phases to replicate a real-world 
 - **Tactical Staffing Solutions**: Engineered a **Conversion Pipeline** to identify **254 eligible contractors** for permanent roles, providing a data-driven way to stabilize the workforce and reduce hiring costs.
 
 ### Phase 3: Tableau HR Workforce Dashboard
-**Location:** [Link to Tableau Public]
+**Location:** [Link to Tableau Public](https://public.tableau.com/views/HRWorkforceDashboardPresentFuture/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **Status:** 🛠 In Progress
 
