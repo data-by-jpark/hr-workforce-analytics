@@ -1,6 +1,6 @@
 # HR Workforce Analytics Project
 
-This repository contains a comprehensive, **three-part HR Workforce Analytics project**. It demonstrates the end-to-end transformation of raw HRIS data into a clear, executive-level staffing strategy.
+This repository contains a comprehensive, **four-part HR Workforce Analytics project**. It demonstrates the end-to-end transformation of raw HRIS data into a clear, executive-level staffing strategy.
 
 ## Project Purpose & Professional Context
 This project is a professional-grade replication of the workforce analytics workflows I designed and led during my tenure at the **Ontario Public Service (OPS)**.
@@ -11,8 +11,8 @@ Because the original government data is confidential, I have rebuilt this workfl
 
 ---
 
-## 🚀 The 3-Part Project Journey
-This project is structured into three distinct phases to replicate a real-world business intelligence cycle.
+## 🚀 The 4-Part Project Journey
+This project is structured into four distinct phases to replicate a professional business intelligence and data science lifecycle.
 
 ### Phase 1: Data Engineering & Preprocessing
 **Location:** `notebooks/01_data_cleaning_preprocessing.ipynb`  
@@ -34,7 +34,17 @@ This project is structured into three distinct phases to replicate a real-world 
 - **Growth & Attrition Trends**: Diagnosed the "Inflow vs. Outflow" of staff to explain the recent headcount declines observed in 2024 and 2025.
 - **Tactical Staffing Solutions**: Engineered a **Conversion Pipeline** to identify **254 eligible contractors** for permanent roles, providing a data-driven way to stabilize the workforce and reduce hiring costs.
 
-### Phase 3: Tableau HR Workforce Dashboard
+### Phase 3: Advanced Analytics & Strategic Forecasting
+**Location:** `notebooks/03_workforce_eda.ipynb`  
+**Status:** 🛠 In Progress
+
+**Goal**: Quantify future workforce risks using predictive modeling.
+
+Key Work: Simulating a 5-Year Retirement Timeline by department and applying Tenure-based Attrition Diagnostics (Survival Analysis) to identify the "critical exit window" for new hires.
+
+Value Add: Moving from "What happened?" to "What will happen?", allowing leadership to plan hiring cycles 12-18 months in advance.
+
+### Phase 4: Tableau HR Workforce Dashboard
 **Location:** [Link to Tableau Public](https://public.tableau.com/views/HRWorkforceDashboardPresentFuture/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **Status:** 🛠 In Progress
