@@ -44,7 +44,7 @@ This project is structured into four distinct phases to replicate a professional
 - **Value Add**: Moving from "What happened?" to "What will happen?", allowing leadership to plan hiring cycles 12-18 months in advance.
 
 ### Phase 4: Tableau HR Workforce Dashboard
-**Location:** [Link to Tableau Public](https://public.tableau.com/views/HRWorkforceDashboardPresentFuture/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Location:** [Link to Tableau Public](https://public.tableau.com/views/HRWorkforceDashboardPresentFuture/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 **Status:** 🏗️ In Progress (V1 Live)
 
 **Goal**: Translate complex Python findings into a visual, interactive experience for stakeholders.
