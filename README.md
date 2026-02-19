@@ -35,25 +35,22 @@ This project is structured into four distinct phases to replicate a professional
 - **Tactical Staffing Solutions**: Engineered a **Conversion Pipeline** to identify **254 eligible contractors** for permanent roles, providing a data-driven way to stabilize the workforce and reduce hiring costs.
 
 ### Phase 3: Advanced Analytics & Strategic Forecasting
-**Location:** `notebooks/03_workforce_eda.ipynb`  
-**Status:** 🛠 In Progress
+**Location:** `notebooks/03_predictive_modeling.ipynb`  
+**Status:** ⏳ Upcoming Phase
 
 **Goal**: Quantify future workforce risks using predictive modeling.
 
-Key Work: Simulating a 5-Year Retirement Timeline by department and applying Tenure-based Attrition Diagnostics (Survival Analysis) to identify the "critical exit window" for new hires.
-
-Value Add: Moving from "What happened?" to "What will happen?", allowing leadership to plan hiring cycles 12-18 months in advance.
+- **Planned Work:** Simulating a 5-Year Retirement Timeline by department and applying Tenure-based Attrition Diagnostics (Survival Analysis) to identify the "critical exit window" for new hires.
+- **Value Add**: Moving from "What happened?" to "What will happen?", allowing leadership to plan hiring cycles 12-18 months in advance.
 
 ### Phase 4: Tableau HR Workforce Dashboard
 **Location:** [Link to Tableau Public](https://public.tableau.com/views/HRWorkforceDashboardPresentFuture/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-**Status:** 🛠 In Progress
+**Status:** 🏗️ In Progress (V1 Live)
 
 **Goal**: Translate complex Python findings into a visual, interactive experience for stakeholders.
 
-- **Executive Summary**: High-level KPIs for Headcount and Attrition.
-- **Strategic Deep-Dives**: Filterable views for department-specific turnover and retirement forecasting.
-- **Actionable Visuals**: A "Conversion Pipeline" tracker for operational management.
+- **Current Milestone**: Completed the **Executive Overview Dashboard**, focusing on current workforce health, headcount trends, and immediate attrition KPIs.
+- **Future Updates**: Integration of "Future Risk Signals" and the interactive "Conversion Pipeline" tracker for operational managers.
 
 ---
 
@@ -95,7 +92,7 @@ project/
 
 -  **Languages:** Python (Pandas, NumPy)
 -  **Visualization:** Matplotlib, Seaborn, Tableau
--  **Analysis:** Workforce Risk Mapping (Retirement), Tenure-based Attrition Diagnostics, Contract-to-Permanent Pipeline Forecasting
+-  **Analysis:** Workforce Risk Mapping (Retirement), Tenure-based Attrition Diagnostics, Contract-to-Permanent Pipeline Forecasting, Survival Analysis (Planned)
 -  **Tools:** Jupyter Notebook, Kaggle, GitHub
 
 ---
